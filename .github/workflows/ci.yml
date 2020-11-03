@@ -1,5 +1,4 @@
-
-name: ci
+name: CI
 on: push
 jobs:
   test:
@@ -12,6 +11,9 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           version: 12
+      - uses: testspace-com/setup-testspace@v1
+        with:
+          domain: ${{github.repository_owner}}
       - run: npm install-ci-test
       - name: Publish results
         run: testspace [${{ matrix.os}}]./testcontent/*.xml
