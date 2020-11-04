@@ -15,5 +15,5 @@ jobs:
         with:
           domain: ${{github.repository_owner}}
       - run: npm install-ci-test
-      - name: Publish results
+      - name: Publish Test Results
         run: testspace [${{ matrix.os}}]./testcontent/*.xml
