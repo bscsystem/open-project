@@ -2,22 +2,27 @@
 testspace:
 before:
   name: aws:us-east-1:stage-app
+  description: Lambda function sets application in idle state
+  inputs:
+    file: "@dataset.json"
 ---
 
 # Startup 
 This tests stages the application to be in state `idle`. Before starting show display
 the following:
 
-![./images/startup.png]
+![idle state][./images/idle-state.png "Idle state"]
 
-## Check Image
-Verify that the image is correctly displayed.
+## Check Transitions
+Verify that the image is correctly displayed based on following table:
 
-- To this quickly
-- Check next step. Should display url. 
+Id1 | Id2
+--- | ---
+Aa  | Ba
 
-## Check Transition
-Next ensure that the app transitions to the `exploring` state.
+- The `Aa` should be displayed first
+- Check next step for **Id2**. Should display url. 
 
-- Step one
-- Step two
+## Exploratory
+Capture observations based state transitions. Include screen shots with comments.
+
