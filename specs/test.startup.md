@@ -3,25 +3,25 @@ testspace:
 ---
 
 # Startup 
-This tests stages the application to be in state `idle`. Before starting show display
-the following:
-
-
-![states](./states.png "State machine")
-
+This tests stages the application to be in state `idle`. All of the specific requirements can be found [here](https://github.com/newco/open-project/issues/27).
 
 ## Check Transitions
-Verify that the image is correctly displayed based on following table:
+The the display based on the following configuratins: 
 
-Id1 | Id2
---- | ---
-Aa  | Ba
+Mode 1.a | Mode 2.c
+-------- | --------
+ State 1 | State n
 
-- The `Aa` should be displayed first
-- Check next step for **Id2**. Should display url. 
+- Check for first transition after power up
+- Check next step for **id=17.xx**. Should display url. 
 
+Now review states based on following diagram:
 
 ![states](./states.png "State machine")
+
+## Power Scenario
+
+## Switch On
 
 
 ## Exploratory
