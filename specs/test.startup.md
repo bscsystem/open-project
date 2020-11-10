@@ -1,10 +1,5 @@
 ---
 testspace:
-before:
-  name: aws:us-east-1:testspace-test-man-auto
-  description: Lambda function sets application in idle state
-  inputs:
-    file: "dataset.json"
 ---
 
 # Startup 
