@@ -1,17 +1,17 @@
 ---
 testspace:
 before:
-  name: aws:us-east-1:stage-app
+  name: aws:us-east-1:testspace-test-man-auto
   description: Lambda function sets application in idle state
   inputs:
-    file: "@dataset.json"
+    file: "dataset.json"
 ---
 
 # Startup 
 This tests stages the application to be in state `idle`. Before starting show display
 the following:
 
-![states][state-machine.png "State machine"]
+![states](./state-machine.png "State machine")
 
 ## Check Transitions
 Verify that the image is correctly displayed based on following table:
