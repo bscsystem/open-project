@@ -11,7 +11,7 @@ before:
 This tests stages the application to be in state `idle`. Before starting show display
 the following:
 
-![idle state][./images/idle-state.png "Idle state"]
+![states][state-machine.png "State machine"]
 
 ## Check Transitions
 Verify that the image is correctly displayed based on following table:
