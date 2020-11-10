@@ -17,7 +17,7 @@ Aa  | Ba
 - Check next step for **Id2**. Should display url. 
 
 
-![states](./states.gif "State machine")
+![states](./states.png "State machine")
 
 
 ## Exploratory
