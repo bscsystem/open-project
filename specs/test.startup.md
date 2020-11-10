@@ -23,6 +23,10 @@ Now review states based on following diagram:
 
 ## Switch On
 
+## Turn off delay
+
+## Full Idle Mode
+
 
 ## Exploratory
 Capture observations based state transitions. Include screen shots with comments.
