@@ -19,7 +19,7 @@ Mode 1.a | Mode 2.c
 
 Now review the states based on following diagram:
 
-![states](./states.png "State machine")
+![states](./states2.png "State machine")
 
 ## Power Scenario
 The power scenario requires quick cycling, going over each scene in less than `10` seconds.
